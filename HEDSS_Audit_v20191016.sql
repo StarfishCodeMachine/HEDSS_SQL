@@ -6,7 +6,7 @@
 --@@@ Instructions: 1. select audit event values using code below in step 1                    @@@@@@@@@@@
 --@@@               2. take values for events you want to view and enter                       @@@@@@@@@@@
 --@@@                   them in the 'where' statement i.e.				       @@@@@@@@@@@
---@@@                   'and ae.[EVENT_TYPE] in (0,1,2,3,4,5)... add your own                  @@@@@@@@@@@
+--@@@                   'and ae.[EVENT_TYPE] in (0,1,2,3,4,5)' ... add your own                @@@@@@@@@@@
 --@@@               3. choose the login name you want to audit and set 'where' statement       @@@@@@@@@@@
 --@@@               4. choose the date range you want to audit and set 'where' statement       @@@@@@@@@@@
 --@@@               5. execute query                                                           @@@@@@@@@@@
@@ -23,12 +23,12 @@
 */
 
 select	ae.UNID								as Audit_UNID
-		,ae.CASE_ID							as Case_UNID
+		,ae.CASE_ID						as Case_UNID
 		,p.FULL_NAME						as ActionBy
 		,ae.CREATE_DATE						as ActionDate
 		,en.DISPLAY_NAME					as ActionType
 		,ae.[MESSAGE]						as ActionDescription
-		,cast(ae.DETAILS as nvarchar(4000)) as ActionDetails
+		,cast(ae.DETAILS as nvarchar(4000)) 			as ActionDetails
 		,ae.OLD_VALUE						as OldValue
 		,ae.NEW_VALUE						as NewValue	
 
