@@ -1,14 +1,13 @@
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Geocode Status by Wes McNeely 10/16/2019                                                 @@@@@@@@@@@
+--@@@ Geocode Status by wsm 10/16/2019                                  
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Purpose: Display geocode status of select addresses or cases                             @@@@@@@@@@@
+--@@@ Purpose: Display geocode status of select addresses or cases           
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Instructions: 1. put maven id in 'where' statement under 'and c.EXTERNAL_ID = ......     @@@@@@@@@@@
---@@@               2. or put filter values for the other fields you want                      @@@@@@@@@@@
---@@@               3. execute query                                                           @@@@@@@@@@@
+--@@@ Instructions: 1. put maven id in 'where' statement under 'and c.EXTERNAL_ID = ......    
+--@@@               2. or put filter values for the other fields you want                     
+--@@@               3. execute query                                                          
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ For Help:     wesley.mcneely@houstontx.gov                                               @@@@@@@@@@@
---@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
 select 	
 	c.EXTERNAL_ID							as Event_ID
