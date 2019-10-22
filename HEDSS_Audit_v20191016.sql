@@ -1,15 +1,15 @@
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Maven Audit by wsm 10/16/2019                                                            @@@@@@@@@@@
+--@@@ Maven Audit by wsm 10/16/2019                                                        
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Purpose: Display Audit Events                                                            @@@@@@@@@@@
+--@@@ Purpose: Display Audit Events                                                       
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ Instructions: 1. select audit event values using code below in step 1                    @@@@@@@@@@@
---@@@               2. take values for events you want to view and enter                       @@@@@@@@@@@
---@@@                   them in the 'where' statement i.e.				       @@@@@@@@@@@
---@@@                   'and ae.[EVENT_TYPE] in (0,1,2,3,4,5)' ... add your own                @@@@@@@@@@@
---@@@               3. choose the login name you want to audit and set 'where' statement       @@@@@@@@@@@
---@@@               4. choose the date range you want to audit and set 'where' statement       @@@@@@@@@@@
---@@@               5. execute query                                                           @@@@@@@@@@@
+--@@@ Instructions: 1. select audit event values using code below in step 1                 
+--@@@               2. take values for events you want to view and enter                   
+--@@@                   them in the 'where' statement i.e.				    
+--@@@                   'and ae.[EVENT_TYPE] in (0,1,2,3,4,5)' ... add your own             
+--@@@               3. choose the login name you want to audit and set 'where' statement     
+--@@@               4. choose the date range you want to audit and set 'where' statement     
+--@@@               5. execute query                                                        
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
