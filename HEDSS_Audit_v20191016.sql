@@ -11,8 +11,7 @@
 --@@@               4. choose the date range you want to audit and set 'where' statement       @@@@@@@@@@@
 --@@@               5. execute query                                                           @@@@@@@@@@@
 --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
---@@@ For Help:     wesley.mcneely@houstontx.gov                                               @@@@@@@@@@@
---@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 
 /*  Use this code to pick audit event values from the IDS_ENUM_ENTRY table									--step 1
 
