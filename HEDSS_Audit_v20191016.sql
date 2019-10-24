@@ -49,8 +49,7 @@ where	1=1
 												--, 3 'Add User'
 												--, 4 'Edit User'
 												--, 5 'Add Role' 
-		and u.LOGIN_NAME = 'wmcneely'			-- change target of audit or comment out to ausit everyone		--step 3
-		-- and u.LOGIN_NAME in ('rkhayat', 'dmorrison')			
+		and u.LOGIN_NAME = 'wmcneely'			-- change target of audit or comment out to audit everyone		--step 3		
 		and ae.CREATE_DATE between '01/01/2019' and getdate()													--step 4
 												 
 order by ae.CREATE_DATE 
