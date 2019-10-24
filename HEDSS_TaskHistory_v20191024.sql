@@ -9,7 +9,7 @@
 
 -- use maven_rpt
 
-declare @event_id int = 101669495 -- i.e. Case ID
+declare @event_id int = 999999999 -- i.e. Case ID
 
 
 select distinct
