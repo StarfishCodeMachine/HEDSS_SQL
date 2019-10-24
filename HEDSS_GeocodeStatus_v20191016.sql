@@ -39,8 +39,8 @@ from IDS_CONTACTPOINT a
 	join IDS_CASE c				on pt.CASE_ID		= c.UNID
 	join IDS_PRODUCT prod		on c.PRODUCT_ID		= prod.UNID
 where	1=1
-		and c.EXTERNAL_ID = 101849326									--step 1
-		--and a.STREET1 = '520 Shaver St'								--step 2
+		and c.EXTERNAL_ID = 99999999									--step 1
+		--and a.STREET1 = '123 Mickey Mouse St'								--step 2
 		--and p.CREATE_DATE between '01/01/2014' and '02/01/2014'		--step 2
 		--and prod.CODE not in ('HEPC_C','HEPB_C')						--step 2
 		--and a.GEOCODE_STATUS = 1										--step 2
@@ -81,9 +81,9 @@ from IDS_CONTACTPOINT A
 	join IDS_CASE c on pt.CASE_ID = c.UNID
 where	1=1
 		and p.CREATE_DATE between '01/01/2015' and '02/01/2015'
-		--and STREET1 = '520 Shaver St'
-		--and c.EXTERNAL_ID = 100011100
-		--and COUNTY = 'Dallam County'
+		--and STREET1 = '123 Mickey Mouse St'
+		--and c.EXTERNAL_ID = 99999999
+		--and COUNTY = 'Dullard County'
 		--and OFFICIAL_PLACE = 'Galveston'
 
 
@@ -110,8 +110,8 @@ from IDS_CONTACTPOINT A
 	join IDS_CASE c on pt.CASE_ID = c.UNID
 where	1=1
 		and p.CREATE_DATE between '01/01/2015' and '01/02/2016'
-		--and STREET1 = '520 Shaver St'
-		--and c.EXTERNAL_ID = 100011100
+		--and STREET1 = '123 Mickey Mouse St'
+		--and c.EXTERNAL_ID = 99999999
 group by 
 	case GEOCODE_STATUS
 		when -4 then 'Invalid Data'
